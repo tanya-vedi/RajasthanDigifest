@@ -1,0 +1,74 @@
+
+body{
+	margin:0;
+	padding: 0;
+	background-size: cover;
+	/*filter:blur(5px);*/
+
+
+}
+.bg-img {
+  background:url(travel-to-travel.jpg);
+  background-size: cover;
+  height: 850px;
+  width: inherit;
+  filter:blur(2px);
+  background-color: rgba(248, 247, 216, 0.7);
+
+}
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+	background-size: cover;
+  height: 850px;
+  width: inherit;
+}
+.list_wrapper{
+	width:50%;
+	margin-top: 8%;
+	margin-left: 40%;
+	/*background-color: blue;*/
+	/*display: inline;*/
+	height: 710px;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.8;
+}
+
+.list{
+	margin-bottom: 8px;
+	height: 130px;
+	background-color: #99C3D3;
+	border-radius: 10px;
+}
+
+.section{
+	width: 75%;
+	height: 100%;
+	float:right;
+	/*background-color: red;*/
+}
+.user {
+  /*display: inline-block;*/
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+h4{
+	
+	font-size: 15px;
+	/*margin-top: -22px;*/
+	/*margin-left: 8px;*/
+	font-weight: lighter;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	color: white;
+	margin-bottom: -5px;
+}

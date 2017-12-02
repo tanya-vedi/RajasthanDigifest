@@ -1,0 +1,30 @@
+#success_message{ display: none;}
+body
+{
+	background-image: url("turban.jpg");
+	background-size: repeat; 
+}
+
+legend{
+    width: 570px;
+	border: 0px !important;
+    margin-left: -20px;
+    background-color: #eb9316;
+    text-align: -webkit-center;
+}
+
+.well{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 8%;
+	opacity: 0.8;
+}
+fieldset
+{
+	width: 600px;
+}
+a{
+	background: yellow ;
+	text-decoration: none;
+	padding: 10px;
+}
