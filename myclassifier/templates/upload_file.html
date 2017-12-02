@@ -1,0 +1,39 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>Result</title>
+			<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" }}>
+			<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<head>
+		<style>
+		body
+        {
+         background-image: url(static/images/1.png);
+         background-size: repeat; 
+         background: #ff8888;
+
+        }	
+		</style>
+		<body vertical-align= "middle" style="background-image: url(static/images/1.png);">
+			<div class="flexbox">
+			<div class="filler"></div>
+			<div class="card card-2">
+			<p class="finaltext" style="margin-left: 520px;margin-top: 300px;">
+			{% for item in resultlist %}
+        		{{ item }}
+        		<br>
+    		{% endfor %}
+			</p>
+			<div style="margin-left: 549px;margin-top: 20px;">
+			
+			 </div>
+			<div class="filler"></div>
+			</div>
+			</div>
+		</body>
+</html>
+<!-- {{ url_for('static', filename='style.css') }} -->
+
+
+
+

@@ -1,0 +1,89 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" }}>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+          rel="stylesheet"> -->
+  </head>
+  <body>
+    <div class="flexbox"> 
+      <div class="filler"></div>
+      <div class="card card-2">
+      <div class="header">
+        <h2 class="text-muted">Registration Form</h2>
+      </div>
+      
+      <hr/>
+      
+      <div>
+<form action="upload" method="post" enctype="multipart/form-data">
+  First name:<br>
+  <input type="text" name="firstname" value="Garima"><br></br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Grewal"><br></br>
+  Email ID:<br>
+  <input type="text" name="email_id" value="grewalgarima@gmail.com"><br></br>
+  Contact number:<br>
+  <input type="text" name="contact_info" value="999999999"><br></br>
+  Address:<br>
+  <input type="text" name="address" value="xyz appts, delhi"><br></br>
+  Password:<br>
+  <input type="password" name="pass" value="Mickey"><br></br>
+  Confirm Password:<br>
+  <input type="password" name="pass" value="Mickey"><br></br>
+  Category
+  <input type="radio" name="category" value="Tourist" checked> Tourist
+  <input type="radio" name="category" value="Local_Guide"> Local Guide<br>
+      
+        
+          <input type="file" name="file"><br /><br />
+          <input type="submit" value="Upload">
+        </form>
+      </div>
+      <div class="filler"></div>
+      </div>
+    
+    </div>
+  </body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+<html lang="en">
+  <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+          rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted">Upload a File</h3>
+      </div>
+      <hr/>
+      <div>
+      
+      <form action="upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file"><br /><br />
+        <input type="submit" value="Upload">
+      </form>
+      </div>
+    </div>
+  </body>
+</html>
+  -->
